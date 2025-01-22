@@ -1,12 +1,12 @@
-import { Routes, Route } from "react-router-dom";
+import {HashRouter as Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header.jsx";
-import Footer from "./components/footer/Footer.jsx";
+// import Footer from "./components/footer/Footer.jsx";
 import ProfileCard from "./components/profile-card/ProfileCard.jsx";
 import Parent from "./components/profile-card/Parent.jsx";
 import Grandparent from "./components/ancestree/Grandparent.jsx";
 import InputDisplay from "./components/input-display/InputDisplay.jsx";
 import Counter from "./components/counter/Counter.jsx";
-import Teman from "./components/teman/Teman.jsx";
+// import Teman from "./components/teman/Teman.jsx";
 import Card from "./components/memory-game/Card.jsx";
 import KnappMedState from "./components/knapp-med-state/KnappMedState.jsx";
 import Greeting from "./components/greeting/Greeting.jsx";
