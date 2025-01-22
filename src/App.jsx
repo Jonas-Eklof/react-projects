@@ -1,4 +1,4 @@
-import {HashRouter as Routes, Route } from "react-router-dom";
+import {Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header.jsx";
 // import Footer from "./components/footer/Footer.jsx";
 import ProfileCard from "./components/profile-card/ProfileCard.jsx";
