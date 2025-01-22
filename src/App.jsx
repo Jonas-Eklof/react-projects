@@ -25,20 +25,20 @@ function App() {
       <SidebarNav />
       <div className="main-content">
         <Routes>
-          <Route path="/react-projects/" element={<ProfileCard />} />
-          <Route path="/react-projects/ParentProfileCard" element={<Parent />} />
-          <Route path="/react-projects/Ancestree" element={<Grandparent />} />
-          <Route path="/react-projects/InputDisplay" element={<InputDisplay />} />
-          <Route path="/react-projects/Counter" element={<Counter />} />
-          <Route path="/react-projects/Timer" element={<Timer />} />
-          <Route path="/react-projects/ButtonWithState" element={<KnappMedState />} />
-          <Route path="/react-projects/MemoryGame" element={<Card />} />
-          <Route path="/react-projects/Greeting" element={<Greeting namn="Jonas" />} />
-          <Route path="/react-projects/ToggleVisible" element={<ToggleInvisible />} />
-          <Route path="/react-projects/Hackathon" element={<Hackathon />} />
-          <Route path="/react-projects/ClassButtons" element={<ClassButtons />} />
+          <Route path="/" element={<ProfileCard />} />
+          <Route path="/ParentProfileCard" element={<Parent />} />
+          <Route path="/Ancestree" element={<Grandparent />} />
+          <Route path="/InputDisplay" element={<InputDisplay />} />
+          <Route path="/Counter" element={<Counter />} />
+          <Route path="/Timer" element={<Timer />} />
+          <Route path="/ButtonWithState" element={<KnappMedState />} />
+          <Route path="/MemoryGame" element={<Card />} />
+          <Route path="/Greeting" element={<Greeting namn="Jonas" />} />
+          <Route path="/ToggleVisible" element={<ToggleInvisible />} />
+          <Route path="/Hackathon" element={<Hackathon />} />
+          <Route path="/ClassButtons" element={<ClassButtons />} />
           <Route
-            path="/react-projects/PropStyleButton"
+            path="/PropStyleButton"
             element={
               <>
                 <PropStyleButton variant="primary" size="small">
@@ -69,7 +69,7 @@ function App() {
               </>
             }
           />
-          <Route path="/react-projects/Todo" element={<ToDo />} />
+          <Route path="/Todo" element={<ToDo />} />
         </Routes>
       </div>
       {/* <Footer /> */}
